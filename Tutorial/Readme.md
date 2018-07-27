@@ -13,7 +13,7 @@ Para crear un proyecto lo haremos mediante npm (usaré como ejemplo la creación
   
   Una vez tenemos establecido nuestro package.json, instalaremos Express. Para instalarlo y añadirlo a nuestro package.json usaremos el siguiente comando: 
   
-                                            *npm install --save express*
+                                              npm install --save express
   
   Podemos sustituir **--save** por **-S**, realizan la misma función: Asegurar que Express es añadido como una dependencia en nuestro package.json. Esto supone una ventaja ya que la próxima vez que nencesitemos instalar todas las dependencias de nuestro proyecto, bastará con ejecutar el comando *npm install*. Encontrará las dependencias en este archivo y las instalará.
   
@@ -40,7 +40,7 @@ Para crear un proyecto lo haremos mediante npm (usaré como ejemplo la creación
   
   Para hacer el desarrollo bastante más rápido, instalaremos desde el npm una herramienta llamada "nodemon".
   
-                                            *npm install -g nodemon*
+                                              npm install -g nodemon
   
   Esta herramienta actualiza nuestro servidor cada vez que hacemos un cambio en nuestros archivos. De esta forma, nos evitaremos hacer esto manualmente cada vez que hagamos un cambio.
   
@@ -50,8 +50,8 @@ Para crear un proyecto lo haremos mediante npm (usaré como ejemplo la creación
   
   - **Globalmente**. Este método se usa generalmente para instalar herramientas de desarrollo (cómo nodemon) o paquetes basados en la CLI.
   
-                                          *npm install -g package-name*
+                                            npm install -g package-name
   
   - **Localmente**. Este método se usa para instalar frameworks y librerías. Un paquete instalado localmente solo podrá ser usado dentro del directorio en el que ha sido instalado.
   
-                                          *npm install package-name*
+                                            npm install package-name
