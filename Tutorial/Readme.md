@@ -17,7 +17,7 @@ Para crear un proyecto lo haremos mediante npm (usaré como ejemplo la creación
   
   Podemos sustituir **--save** por **-S**, realizan la misma función: Asegurar que Express es añadido como una dependencia en nuestro package.json. Esto supone una ventaja ya que la próxima vez que nencesitemos instalar todas las dependencias de nuestro proyecto, bastará con ejecutar el comando *npm install*. Encontrará las dependencias en este archivo y las instalará.
   
-  **Imagen**
+  ![Install Express](https://github.com/feroviedofernandez/ExpressJS/blob/develop/Tutorial/Resources/Images/npm-install-save-express.PNG)
   
   Veremos que en nuestro caso aparecen dos WARN. No te preocupes por esto, no ocasionará ningún problema ya que son campos meramente informativos.
   
