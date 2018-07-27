@@ -1,6 +1,6 @@
 # Tutoriales de los módulos que provee ExpressJS
 
-Necesitaremos tener instalado NodeJS - https://nodejs.org/es/download/
+Necesitaremos tener instalado NodeJS y npm - https://nodejs.org/es/download/
 
 ### Creación de un proyecto
 Para crear un proyecto lo haremos mediante npm (usaré como ejemplo la creación del proyecto "HelloWorld"):
