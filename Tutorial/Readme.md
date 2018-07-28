@@ -27,7 +27,7 @@ Para crear un proyecto lo haremos mediante npm (usaré como ejemplo la creación
   
     El campo "description" dependerá de cada uno de nosotros.
       
-    El campo "git repository" se rellenará con el link a tu repositorio, en mi caso:  
+    El campo "git repository" se rellenará con el link a tu repositorio.
         
   - Añadiendo a nuestro package.json la siguiente key: **"private": true**
   
