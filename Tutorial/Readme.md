@@ -2,6 +2,10 @@
 
 Necesitaremos tener instalado NodeJS y npm - https://nodejs.org/es/download/
 
+Puedes comprobar que ha sido instalado correctamente ejecutando los comandos *node --version* y *npm --version*
+
+![node npm version](https://github.com/feroviedofernandez/ExpressJS/blob/develop/Tutorial/Resources/Images/node_npm_version.PNG)
+
 ### Creación de un proyecto
 Para crear un proyecto lo haremos mediante npm (usaré como ejemplo la creación del proyecto "HelloWorld"):
 
