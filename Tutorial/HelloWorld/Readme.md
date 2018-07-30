@@ -55,4 +55,22 @@ El número máximo de conexiones pendientes en cola. El valor por defecto es 511
 
 #### callback
 
-Función asíncrona a la que se llama cuándo el servidor empieza a escuchar solicitudes.
+Función asíncrona a la que se llama cuándo el servidor empieza a escuchar solicitudes.<br />
+Se llama tras la inicialización de la aplicación. Podría decirse que se añade como un listener del evento listen.<br />
+
+La mejor forma de ver cual es el funcionamiento de esta función es "viéndolo en acción". Y lo haremos con el siguiente ejemplo:
+
+![Callback app.listen](https://github.com/feroviedofernandez/ExpressJS/blob/develop/Tutorial/Resources/Images/callback_appListen.PNG)
+
+Hemos modificado la sección del *app.listener()* para asignarla a la variable "server", a la vez que hacemos la llamada a la función callback en la que podemos ver que hacemos uso de "server" en las mismas líneas de su asignación. ¿Funcionará? ¿Tendremos acceso a "server" o recibiremos un error por tratar de acceder a propiedades de un objeto nulo?
+
+También se nos plantea otra duda, vamos a mostrar texto por consola en función de la ejecución del código. ¿En qué orden aparecerán estos textos?
+
+Veremos que estas dos cuestiones están relacionadas asi que salgamos de dudas. Vamos a ejecutar la aplicación y veremos qué es lo que obtenemos:
+
+![Ejecución callback app.listen](https://github.com/feroviedofernandez/ExpressJS/blob/develop/Tutorial/Resources/Images/ejecucion_callback_appListen.PNG)
+
+Y ahora respondamos a las dos dudas planteadas:<br />
+1. Sí, funciona. El método *app.listen()* devuelve un objeto a la variable "server" pero todavía no se ha llamado a la función callback ya que como hemos comentado, se llama tras la inicialización de la aplicación. Es por ello que la variable "server" se encuentra accesible dentro de "callback", es creada antes de que la función sea llamada.
+
+2. Sabiendo el punto anterior, entendemos por qué los logs se han presentado de esa manera y con ellos, confirmamos que la función "callback" de *app.listen()*, es llamada tras la inicialización de la aplicación.
