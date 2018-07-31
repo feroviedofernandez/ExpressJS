@@ -22,7 +22,7 @@ Podrás ver que nodemon se encarga de comprobar si hemos hecho cambios y, de ser
 
 ## Vamos a explicar el archivo index.js
 
-La primera línea importa Express en nuestro archivo. Tenemos acceso a ellos mediante la variable en la que asignamos la importación. Usaremos esta variable para crear una aplicación y asginarla a la variable "app".
+La primera línea importa Express en nuestro archivo. Tenemos acceso a ello mediante la variable en la que asignamos la importación. Usaremos esta variable para crear una aplicación y asignarla a la variable "app".
 
 ### app.get(route, callback)
 
