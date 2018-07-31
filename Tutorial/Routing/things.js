@@ -11,6 +11,3 @@ router.post("/", function (req, res) {
 
 //Exportamos el router para usarlo en nuestro index.js
 module.exports = router;
-
-
-
