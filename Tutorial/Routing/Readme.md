@@ -42,7 +42,7 @@ Express proporciona un método especial, **all**, que se encarga de todos los ti
 ![Método all](https://github.com/feroviedofernandez/ExpressJS/blob/develop/Tutorial/Resources/Images/metodo_all.PNG)
 
 Prueba diferentes tipos de solicitudes sobre esta ruta y observa los resultados para ver como funciona este método especial.<br />
-Este método es usado generalmente para definir el middleware, que explicaremos en su sección.
+Este método es usado generalmente para definir el middleware, que explicaré en su sección.
 
 ### Routers
 Definir rutas de la forma que hemos comentado arriba es tedioso y complicado de mantener. Para separar las rutas de nuestro archivo **index.js** usaremos **Express.Router**.<br />
@@ -59,6 +59,6 @@ La ruta "/" de things.js es realmente una subruta de "/things". Visitemos **loca
 
 ![Archivo things.js](https://github.com/feroviedofernandez/ExpressJS/blob/develop/Tutorial/Resources/Images/index_router_testeo.PNG)
 
-Los enrutadores son muy útiles para evitar las preocupaciones y mantener juntas las partes relevantes de nuestro código. También nos ayudan a desarrollar un código mantenible.<br />
+Los enrutadores son muy útiles para evitar preocupaciones y mantener juntas las partes relevantes de nuestro código. También nos ayudan a desarrollar un código mantenible.<br />
 Deberás definir tus rutas relativas a una entidad en un solo archivo e incluirlo donde necesites de la forma que hemos aprendido.
 
