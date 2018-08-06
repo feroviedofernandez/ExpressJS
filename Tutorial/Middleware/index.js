@@ -9,8 +9,8 @@ var requestTime = function (req, res, next) {
 app.use(requestTime);
 
 app.get("/", function (req, res) {
-    var responseText = "Hello World";
-    responseText += "Requested at: " + req.requestTime + "";
+    var responseText = "Hello World ";
+    responseText += "requested at: " + req.requestTime + "";
     res.send(responseText);
 });
 
