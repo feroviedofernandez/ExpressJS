@@ -18,7 +18,7 @@ El siguiente ejemplo muestra los elementos de una llamada a función de middlewa
 
 ![Ejemplo middleware](https://github.com/feroviedofernandez/ExpressJS/blob/develop/Tutorial/Resources/Images/ejemplo_middleware.PNG)
 
-A continuación, tenemos un ejemplo de una aplicación Express simple, “Hello World”, para la que definirá dos funciones de middleware:
+A continuación, tenemos un ejemplo de una aplicación Express simple, “Hello World”, para la que definiremos dos funciones de middleware:
 
 ![Hello world middleware](https://github.com/feroviedofernandez/ExpressJS/blob/develop/Tutorial/Resources/Images/helloworld_middleware.PNG)
 
